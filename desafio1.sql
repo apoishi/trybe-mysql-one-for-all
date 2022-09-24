@@ -61,9 +61,9 @@ INSERT INTO
 	SpotifyClone.subscription_plan(plan, price)
 VALUES
 	('gratuito', 0.00),
+	('familiar', 7.99),
 	('universitario', 5.99),
-	('pessoal', 6.99),
-	('familiar', 7.99);
+	('pessoal', 6.99);
 
 INSERT INTO
 	SpotifyClone.users(user_name, age, plan_id, subscription_date)
